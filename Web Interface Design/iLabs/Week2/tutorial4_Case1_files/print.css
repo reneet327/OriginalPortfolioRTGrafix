@@ -1,0 +1,72 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 4
+   Case Problem 1
+
+   Willet Creek Print Style Sheet
+   Author: Renee Thommas	
+   Date:   1/13/15
+
+   Filename:         print.css
+   Supporting Files: 
+
+*/
+@page {size: 8.5in 11in portrait;
+	margin: 1in
+}
+
+h1, h2, h3{
+	font-family: sans-serif;	
+}
+
+#hole_list, #flags{
+	display: none;	
+}
+
+#hole_stats {
+	float: left;
+	margin-right: 0.2in;
+	padding: 0.1in;	
+	border-right: dashed black 0.1in;
+	border-bottom: dashed black 0.1in;
+}
+
+#hole_stats h2{
+	font-size: 12pt;	
+}
+
+#hole_image{
+	margin-top: 3in;
+	margin-left: 3in;
+}
+
+#hole_image img{
+	width: 3.54in;
+	height: 5in;
+}
+
+#hole_description span{
+	display: block;
+	font-family: san-serif;
+	font-weight: bold;
+	font-size:  20pt;	
+	
+	
+}
+
+#hole_description span:before{
+	content: "Hole ";
+}
+/*  The book didn't say anything about setting the position of the description for print.css 
+This was my attempt to fix it so that it would look like the picture in the book.*/
+#hole_description{
+	position: absolute;
+	left: 230;
+	top: 100; 	
+}
+
+
+
+
+ 
+

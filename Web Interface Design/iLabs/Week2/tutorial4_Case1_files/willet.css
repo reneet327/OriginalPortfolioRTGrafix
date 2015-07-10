@@ -1,0 +1,117 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 4
+   Case Problem 1
+
+   Willet Creek Screen Style Sheet
+   Author: Renee Thommas
+   Date:   1/13/15
+
+   Filename:         willet.css
+   Supporting Files: 
+
+*/
+
+body                  {background-color: white; margin: 0px; padding: 0px; 
+                       font-family: sans-serif}
+a                     {text-decoration:none}
+#page_content         {width: 780px}
+#head                 {text-align: center; background-color: rgb(53, 43, 48); 
+                       margin: 0px}
+#hole_list{
+	text-align: center;
+ 	height: 30px; 
+	margin: 0px;
+	background-color: rgb(53, 43, 48)}
+
+
+#hole_list li {
+	
+	color: #fff;
+	font-size: 1.25em;
+	font-weight: bold;
+	display: inline;
+	margin: 0;
+	padding: 0 5; 	
+}
+
+
+#hole_list a:link{	
+	color: white;}
+	
+#hole_list a:visited{	
+	color: white;}
+
+#hole_list a:hover{
+	
+	background-color: yellow;
+	color: black;
+}
+
+#hole_stats{
+	Position: absolute;
+	left: 0;
+	top: 115;
+	width: 120px; 
+	height: 200px; 
+    color: white; 
+	background-color: rgb(53, 43, 48);
+}
+
+#hole_stats h2{
+	font-size: 1em;
+	margin-left: 5px;
+}
+
+#hole_stats ul{
+	margin-left: 10px;
+	list-style-type:none;
+	padding-left: 0px;
+	font-size: 0.7em;		
+}
+
+#hole_stats strong{
+	color: yellow;
+}
+
+
+#hole_summary{
+	position: absolute;
+	left: 120;
+	top: 115; 
+	height: 200px; 
+	width: 660px; 
+	border: 1px solid rgb(53, 43, 48) 
+}
+
+#hole_image{
+	position: absolute;
+	left: 10;
+	top: 5; 	
+}
+
+#hole_description{
+	position: absolute;
+	left: 100;
+	top: 5; 	
+}
+
+#hole_description span{
+	float: left; 
+	font-size: 300%;
+	color: green;
+	line-height: 0.75;
+	padding-right: 2px;	
+}
+
+#flags img[src = "prev.jpg"] {
+	position: absolute;
+	left: 220;
+	top: 145; 	
+}
+
+#flags img[src = "next.jpg"] {
+	position: absolute;
+	left: 270;
+	top: 145; 	
+}

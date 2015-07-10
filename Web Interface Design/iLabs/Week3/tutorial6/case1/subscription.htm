@@ -1,0 +1,156 @@
+<html>
+<!-- 
+   New Perspectives on HTML and XHTML
+   Tutorial 6
+   Case Problem 1
+
+   Park City Gazette Project
+   Author: Renee Thomas	
+   Date:   1/25/15
+
+   Filename:         subscription.htm
+   Supporting files: parch.jpg, pcg.css, pcglogo.jpg, sform.css
+-->
+
+   <title>Park City Gazette Subscription</title>
+   <link href="pcg.css" rel="stylesheet" type="text/css" />
+   <link href="sform.css " rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+   <div id="header">
+      <img src="pcglogo.jpg" alt="The Park City Gazette" />
+   </div>
+
+   <div id="leftColumn">
+      <h2><a href="#">Home Page</a></h2>
+      <h2><a href="#">News</a></h2>
+      <ul>
+         <li><a href="#">Local</a></li>
+         <li><a href="#">State</a></li>
+         <li><a href="#">National</a></li>
+         <li><a href="#">International</a></li>
+         <li><a href="#">Sports</a></li>
+         <li><a href="#">Weather</a></li>
+      </ul>
+      <h2><a href="#">Classifieds</a></h2>
+      <ul>
+         <li><a href="#">For Sale</a></li>
+         <li><a href="#">Wanted</a></li>
+         <li><a href="#">Employment</a></li>
+         <li><a href="#">Real Estate</a></li>
+         <li><a href="#">Personals</a></li>
+      </ul>
+      <h2><a href="#">Tourism</a></h2>
+      <ul>
+         <li><a href="#">Attractions</a></li>
+         <li><a href="#">Events</a></li>
+         <li><a href="#">Parks</a></li>
+         <li><a href="#">Camping</a></li>
+      </ul>
+      <h2><a href="#">Subscriptions</a></h2>
+      <h2><a href="#">Contact Us</a></h2>
+   </div>
+
+   <div id="rightColumn">
+      <h1>Subscriptions</h1>
+      <p>Yes, I want to subscribe to the Park City Gazette! <br />
+         I can choose from one of the following options:</p>
+         
+         <form id="subForm">
+         	<fieldset id="subPlans">        
+         		
+                <input type="radio" name="plan" id="plan1" value="1" >
+                <label for="plan1">6 mo./$24</label>
+                
+                <input type="radio" name="plan" id="plan2" value="2" >
+                <label for="plan2">12 mo./$45</label>                
+                
+                <input type="radio" name="plan" id="plan3" value="3" >
+                <label for="plan3">18 mo./$64</label>                
+                
+                <input type="radio" name="plan"  id="plan4" value="4" >
+                <label for="plan4">24 mo./$80 (best value)</label>
+                
+            </fieldset>
+           
+            	<label for="cName" class="floatLabel"> Name </label>               
+                	<input type="text" class="floatCtrl" name="cName" id="cName" size="50"  />                           
+                          
+                
+                <label for="address"class="floatLabel">Address</label>                 
+                	<textarea class="floatCtrl" name="address" id="address" rows="6" cols="50" />                        
+             
+            
+            	<label class="floatLabel">
+                	<input type="checkbox" name="agree" id="agree" />
+                 Yes, I wish to pay online by entering my credit card information below.       
+                 </label>           	
+            
+            
+            <fieldset id="payment">
+            	<label class="floatLabel"> 
+                Credit Card
+                	<select class="floatCtrl" id="cardType" name="cardType" size="4">
+                    	 <option value="American Express">American Express</option>
+                         <option value="Discover">Discover</option>
+                         <option value="MasterCard">MasterCard</option>
+                         <option value="Visa">Visa</option>
+                    </select>
+                </label>                   
+                 
+                 
+                <label class="floatLabel">
+                Name on Card
+                	<input type="text" name="cardName" id="cardName"  size="30" class="floatCtrl" />
+                </label> 
+                
+                <label class="floatLabel">
+                Card Number
+                	<input type="text" name="cardNumber" id="cardNumber" size="30" class="floatCtrl" />
+                </label> 
+                
+                
+                 <label class="floatLabel">
+                 Expiration Date
+                	<select class="floatCtrl" id="expMonth" name="expMonth" size="1">
+                    	 <option value="1">01</option>
+                         <option value="2">02</option>
+                         <option value="3">03</option>
+                         <option value="4">04</option>
+                         <option value="5">05</option>
+                         <option value="6">06</option>
+                         <option value="7">07</option>
+                         <option value="8">08</option>
+                         <option value="9">09</option>
+                         <option value="10">10</option>
+                         <option value="11">11</option>
+                         <option value="12">12</option>
+                    </select>
+                    <select class="floatCtrl" id="expYear" name="expYear" size="1">
+                    	 <option value="2011">2011</option>
+                         <option value="2012">2012</option>
+                         <option value="2013">2013</option>
+                         <option value="2014">2014</option>
+                         <option value="2015">2015</option>
+                         
+                    </select>
+                </label>               	
+            </fieldset>
+                          
+         </form>
+
+
+
+      <address>
+         Park City Gazette &bull;
+         801 Main Street &bull;
+         Estes Park, CO 80517 &bull;
+         1 (800) 555-2918
+      </address>
+   </div>
+
+</body>
+
+</html>

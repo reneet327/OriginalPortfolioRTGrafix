@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* -- main wrapper --*/
+
+
+#wrapper{
+	margin-top: 0px;
+	width: 1220px;
+	margin: 0 auto 20px;
+	padding-bottom: 5px;
+	background-color: white;
+	
+}
+
+body{
+	background-image: url(../images/bkgnd.gif);
+	padding: 0;
+	margin: 0;	
+}
+
+/* -- images in document --*/
+
+.images{
+	position: relative;	
+}
+
+
+.images img {
+	
+	border: solid 1px white;
+	border-radius: 10px;
+	
+}
+
+.images img:hover{
+	border: solid 1px black;
+	border-radius: 10px;
+}
+
+/* -- Navigation --*/
+		
+#topNavSection{
+	position: relative; width: 100%; height: 100px; 
+    background: -webkit-linear-gradient(white, black); /* For Safari 5.1 to 6.0 */
+   	background: -o-linear-gradient(white, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, black); /* Standard syntax (must be last) */
+}
+		
+	
+#top_nav ul{
+		list-style:none;
+		position: absolute;
+		
+		top: 30px;
+		left: 0;
+}
+	
+	#top_nav ul li{
+		display: inline;
+		border: black solid 2px;
+		border-radius: 10px;
+		background-color: black;
+		padding: 20px;
+		margin-right: 20px;		
+	}
+	
+	#top_nav ul li:nth-child(4){
+		margin-left: 250px;}
+	
+	
+	#top_nav ul a{
+		color: white;
+		text-decoration: none;		
+	}
+	
+	#top_nav ul li:hover{
+		background-color: gray;	
+	}
+	
+	#top_nav img{
+		width: 200px;
+		border: 2px solid black;
+		display: block; 
+		position: absolute; 
+		top:60px; Left: 500px;
+		
+	}
+/* -- creative bands on pages --*/
+
+#trd_sh, #print_misc, #animFlash, #name, #pkg{
+	
+	width: 100%; 
+    background-color:#edd2ed;
+	padding-top: 10px;
+   	
+}
+
+#name p{
+	font-size: 2.5em;
+	font-family:"Arial Narrow", Verdana, sans-serif;
+	padding-bottom: 30px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+/* -- Misc tags and classes --*/
+.clear{
+	clear: both;	
+}
+
+figure{
+	
+	display: inline-block;
+	bottom: 0px;
+	
+}
+
+figcaption{
+	
+	text-align: center;	
+	font-family: "Arial Narrow", Verdana, sans-serif;	
+	font-weight: bold;
+}
+
+.center{
+	margin: 0 auto;
+}
+
+	.block{
+		display: block;
+	}
+	
+	h1{
+		margin:100px auto 0;
+		text-align: center;
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size: 3em;
+	}
+	
+	h2{
+		margin-top: 10px;
+		
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size: 2em;
+}
+
+header h2, section + h2{
+	text-align: center;	
+}
+	
+	h3{
+		margin-top: -20px;
+		text-align: center;
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size: 1.1em;
+		
+	}
+	
+	p {
+		text-align: center;	
+	}
+	
+	article{
+		padding: 20px;
+	}
+	
+	table{
+		margin: 0 auto;
+	}
+	
+/*  ----Popup stuff----  */
+	
+#abtMshift, #abtZag, #abtRT, #abtBB, #abtMLP, #abtSS, #abtTapeMeasure, #abtSwivel, #abtSureStik{
+	display: none;
+	
+}
+
+
+
+.popup{
+	margin: 0px auto 10px;
+	width: 90%;
+	padding: 30px;
+	background-color: white;
+	border-radius: 10px;
+	border: 2px solid black;
+	
+}
+
+.popup img{
+	
+	float: left;
+	margin-right: 40px;	
+}
+
+.popup p, h2{	
+	text-align: left;
+}
+
+
+.popup div{
+	width: 500px;
+	float: left;	
+}
+
+
+
+
+
+
+
+	

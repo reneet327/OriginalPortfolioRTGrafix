@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+		background-image: url("images/bkgnd.gif");
+		}
+		
+		p{
+			font-family: arial, sans-serif;
+		}
+	#wrapper{
+		width: 90%;
+		margin: 0 auto;
+		background-color: white;
+		}
+		
+	
+	#top_nav ul{
+		list-style:none;
+		position: absolute;
+		top: 30px;
+		left: 0;
+	}
+	
+	#top_nav ul li{
+		display: inline;
+		border: black solid 2px;
+		border-radius: 10px;
+		background-color: black;
+		padding: 20px;
+		margin-right: 20px;		
+	}
+	
+	#top_nav ul li:nth-child(4){
+		margin-left: 250px;}
+	
+	
+	#top_nav ul a{
+		color: white;
+		text-decoration: none;		
+	}
+	
+	#top_nav ul li:hover{
+		background-color: gray;	
+	}
+	
+	#top_nav img{
+		width: 200px;
+		border: 2px solid black;
+		display: block; 
+		position: absolute; 
+		top:60px; Left: 500px;
+		
+	}
+	
+	.block{
+		display: block;
+	}
+	
+	h1{
+		margin:100px auto 0;
+		text-align: center;
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size: 3em;
+	}
+	
+	article{
+		padding: 20px;
+	}
+	
+	table{
+		margin: 0 auto;
+	}
+	
+	
